@@ -4,7 +4,7 @@ import ListUsers from '../Components/ListUsers'
 export default function Users() {
   return (
     <div>
-      <h2>Users</h2>
+    <br></br><br></br><br></br>
       <ListUsers/>
     </div>
   )

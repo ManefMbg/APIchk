@@ -12,13 +12,12 @@ import NavBar from './Components/NavBar'
 function App() {
   return (
     <div className="App">
-      <h1>WS API</h1>
       <NavBar/>
      <Routes>
-        <Route path='/' eLement={<Home/>}></Route>
-        <Route path='/users' eLement={<Users/>}></Route>
-        <Route path='/user/:id' eLement={<Profile/>}></Route>
-        <Route path='/*' eLement={<Error/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/users' element={<Users/>}></Route>
+        <Route path='/user/:id' element={<Profile/>}></Route>
+        <Route path='/*' element={<Error/>}></Route>
      </Routes>
     </div>
   );
