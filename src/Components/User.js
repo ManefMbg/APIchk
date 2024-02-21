@@ -3,7 +3,7 @@ import { Button,Card,ListGroup } from 'react-bootstrap'
 
 const User = ({user}) => {
   return (  
-    <div>
+    <div style={{marginBottom:'5rem'}}>
      <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYAbdxO5KlG7ClKFO0oCNNefItucipE9Siz-FKYzTqoevtbdFDjUzGNSnwIyKZuX-OZJw&usqp=CAU" />
       <Card.Body>
@@ -17,8 +17,9 @@ const User = ({user}) => {
       <Card.Body>
         <Button>Profile</Button>
       </Card.Body>
-    </Card>
+    </Card>   
     </div>
+   
   )
 }
 

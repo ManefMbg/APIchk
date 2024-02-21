@@ -11,7 +11,7 @@ export default function NavBar() {
             <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/users">Users</Nav.Link>
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/signin">Login</Nav.Link>
           </Nav>
        
       </Container>
